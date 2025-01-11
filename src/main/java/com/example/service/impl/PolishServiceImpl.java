@@ -6,7 +6,6 @@ import com.example.model.PolishResponse;
 import com.example.model.exception.ValidationException;
 import com.example.model.proofreding.ProofreadingResponse;
 import com.example.service.PolishService;
-import lombok.RequiredArgsConstructor;
 import org.apache.commons.text.similarity.JaroWinklerSimilarity;
 import org.springframework.stereotype.Service;
 

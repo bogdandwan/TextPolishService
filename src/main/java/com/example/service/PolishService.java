@@ -6,7 +6,4 @@ import com.example.model.PolishResponse;
 public interface PolishService {
     PolishResponse processRequest(PolishRequest polishRequest);
 
-
-
-
 }
