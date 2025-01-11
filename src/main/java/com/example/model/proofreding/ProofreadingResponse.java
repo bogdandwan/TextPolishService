@@ -1,8 +1,5 @@
 package com.example.model.proofreding;
 
-import lombok.Data;
-
-@Data
 public class ProofreadingResponse {
 
     private String proofread_content;

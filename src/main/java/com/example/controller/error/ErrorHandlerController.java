@@ -18,4 +18,10 @@ public class ErrorHandlerController {
         return new ApiError(ex.getMessage());
     }
 
+    @ExceptionHandler({Exception.class})
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ResponseBody
+    public ApiError handleException(Exception ex) {
+        return new ApiError(ex.getMessage());
+    }
 }

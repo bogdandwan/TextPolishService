@@ -1,10 +1,7 @@
 package com.example.model.error;
 
-import lombok.Data;
-
 import java.io.Serializable;
 
-@Data
 public class ApiError implements Serializable {
     private String message;
 
